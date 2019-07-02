@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/bulb/bulb",
+    "pages/aquatic/aquatic",
+    "pages/succulent/succulent",
+    "pages/sorrel/sorrel",
+    "pages/index/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "enablePullDownRefresh": true,
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "淋酱の花花草草",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#6e6d6b",
+    "selectedColor": "#07c160",
+    "borderStyle": "black",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/bulb/bulb",
+        "text": "球根",
+        "iconPath": "icons/deliver.png",
+        "selectedIconPath": "icons/delivered.png"
+      },
+      {
+        "pagePath": "pages/aquatic/aquatic",
+        "text": "水生",
+        "iconPath": "icons/select.png",
+        "selectedIconPath": "icons/selected.png"
+      },
+      {
+        "pagePath": "pages/succulent/succulent",
+        "text": "多肉",
+        "iconPath": "icons/write.png",
+        "selectedIconPath": "icons/writed.png"
+      },
+      {
+        "pagePath": "pages/sorrel/sorrel",
+        "text": "酢浆草",
+        "iconPath": "icons/sign.png",
+        "selectedIconPath": "icons/signed.png"
+      }
+    ]
+  }
+}
